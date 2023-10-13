@@ -1,6 +1,7 @@
 
 const appMain = document.getElementById("app-main")
-const ballNumber = parseInt(prompt("How many balls do you want?"))
+// const ballNumber = parseInt(prompt("How many balls do you want?"))
+const ballNumber = 5
 
 for (i = 0; i < ballNumber; i++) {
 
@@ -60,11 +61,11 @@ circles.forEach((circle, index) => {
 
     }
 
-    setInterval(() => {
+    // setInterval(() => {
 
-        moveCircle()
+    //     moveCircle()
 
-    }, 10);
+    // }, 10);
 
 });
 
