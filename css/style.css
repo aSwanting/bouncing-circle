@@ -1,0 +1,19 @@
+.app-main {
+    background: url(../img/background-img.jpg) center / cover;
+    background-color: rgba(90, 71, 71, 0.753);
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.glass-circle {
+
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.349);
+    background-color: rgba(107, 162, 194, 0.192);
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8px);
+    position: absolute;
+
+}
