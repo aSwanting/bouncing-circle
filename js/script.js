@@ -24,7 +24,7 @@ circleButton.addEventListener("click", function () {
 
         // Create and append Circle element    
         const glassCircle = document.createElement("div")
-        document.querySelector(".app-main").append(glassCircle)
+        appMain.append(glassCircle)
         glassCircle.className = "glass-circle"
 
         // Give circle random size
