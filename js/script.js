@@ -29,8 +29,8 @@ let circlePosY = glassCircle.offsetTop
 
 let circleDirectionX = randNum(0, 1)
 let circleDirectionY = randNum(0, 1)
-let circleSpeedX = randNum(3, 16)
-let circleSpeedY = randNum(3, 16)
+let circleSpeedX = randNum(4, 12)
+let circleSpeedY = randNum(4, 12)
 
 setInterval(() => {
 
