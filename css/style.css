@@ -9,14 +9,20 @@
 .app-main {  
     flex-grow: 1;
     position: relative;
+    overflow: hidden;
 }
 
 .app-splash {
     background-color: rgba(44, 65, 95, 0.4);
     backdrop-filter: blur(30px);
     aspect-ratio: 1;
-    max-width: 80%;
-    max-height: 80%;
+    padding: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 500px;
+    min-height: 500px;
+
+ 
 
 }
 
