@@ -11,8 +11,15 @@
     position: relative;
 }
 
+.app-splash {
+    background-color: rgba(44, 65, 95, 0.4);
+    backdrop-filter: blur(30px);
+    aspect-ratio: 1;
+    max-width: 800px;
+}
+
 .toolbar {
-    background-color: rgba(44, 65, 95, 0.5);
+    background-color: rgba(44, 65, 95, 0.4);
     padding: 20px;
     flex-shrink: 0;
     backdrop-filter: blur(30px);
@@ -24,7 +31,7 @@
     left: 0;
     aspect-ratio: 1;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.5);
-    /* border: 3px solid rgba(255, 255, 255, 0.50);  */
+    background-color: #59779e;
     backdrop-filter: blur(30px);
 }
+
