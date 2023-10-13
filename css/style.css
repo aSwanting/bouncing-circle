@@ -1,18 +1,16 @@
 .app-main {
-    background: url(../img/background-img.jpg) center / cover;
-    background-color: rgba(90, 71, 71, 0.753);
+    /* background: url(../img/background-img.jpg) center / cover; */
+    background-color: rgba(105, 105, 105, 0.753);
     height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
 .glass-circle {
-
+    position: absolute;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 3px solid rgba(255, 255, 255, 0.50);
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(30px);
-    position: absolute;
-
+    background-color: rgba(255, 255, 255, 0.25);
+    /* border: 3px solid rgba(255, 255, 255, 0.50); */
+    /* backdrop-filter: blur(30px); */
 }
